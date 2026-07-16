@@ -13,7 +13,7 @@ const allowedOrigins = (process.env.ALLOWED_ORIGINS || defaultOrigins.join(","))
   .filter(Boolean);
 const championIds = new Set([
   "warden", "ranger", "mage", "duelist", "frost", "rift", "siphon", "bruiser",
-  "fox", "demon", "beast", "hexer", "prism", "striker", "marshal", "arcblade", "dragon",
+  "fox", "demon", "beast", "hexer", "prism", "striker", "marshal", "arcblade", "dragon", "gale",
 ]);
 const rooms = new Map();
 const clients = new WeakMap();
